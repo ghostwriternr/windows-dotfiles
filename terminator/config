@@ -1,15 +1,25 @@
 [global_config]
+  window_state = maximise
+  title_inactive_fg_color = "#98d1ce"
+  title_transmit_bg_color = "#0a0f14"
+  title_transmit_fg_color = "#98d1ce"
+  title_inactive_bg_color = "#10151b"
 [keybindings]
 [profiles]
   [[default]]
-    background_image = None
     scrollbar_position = hidden
+    palette = "#0a0f14:#c33027:#26a98b:#edb54b:#195465:#4e5165:#33859d:#98d1ce:#10151b:#d26939:#081f2d:#245361:#093748:#888ba5:#599caa:#d3ebe9"
+    background_image = None
+    cursor_color = "#98d1ce"
+    foreground_color = "#98d1ce"
+    background_color = "#0a0f14"
     scrollback_infinite = True
 [layouts]
   [[default]]
     [[[child1]]]
       type = Terminal
       parent = window0
+      profile = default
     [[[window0]]]
       type = Window
       parent = ""
